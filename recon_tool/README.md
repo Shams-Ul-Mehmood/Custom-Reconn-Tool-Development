@@ -1,4 +1,4 @@
-# Recon Tool
+# Customized Recon Tool
 
 A lightweight, modular command-line reconnaissance tool built for penetration
 testing engagements. It automates the early information-gathering phase of a
