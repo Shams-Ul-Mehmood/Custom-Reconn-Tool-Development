@@ -1,0 +1,48 @@
+==================================================
+Recon Report for: scanme.nmap.org
+Generated on: 2026-07-10T21:12:04.292964
+Resolved IP: 45.33.32.156
+==================================================
+
+SECURITY POSTURE SUMMARY
+-------------------------
+Risk Score : 2 (Low Risk)
+  - 2 open port(s) found
+
+[WHOIS]
+  Not available yet.
+
+[DNS]
+  Not available yet.
+
+[SUBDOMAINS]
+  Not available yet.
+
+[PORTS]
+  target: scanme.nmap.org
+  success: True
+  data:
+    target: scanme.nmap.org
+    resolved_ip: 45.33.32.156
+    started_at: 1783699915.8507996
+    finished_at: 1783699924.2912104
+    open_ports:
+      -
+        port: 22
+        state: open
+        service: ssh
+        banner: OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13
+        latency_ms: None
+      -
+        port: 80
+        state: open
+        service: http
+        banner: Apache httpd 2.4.7
+        latency_ms: None
+    scanned_port_count: 3
+    backend: nmap
+    duration_sec: 8.44
+
+[TECHDETECT]
+  Not available yet.
+
